@@ -20,7 +20,7 @@ public class User implements Serializable {
 	@Column(name = "USER_ID")
 	private Long userId;
 
-	@Column(name = "FIRST_NAME")
+	@Column(name = "USER_NAME")
 	private String name;
 
 	public Long getUserId() {
